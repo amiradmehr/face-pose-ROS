@@ -59,6 +59,7 @@ while True:
         if dick == 'eye':
             break
 
+
 # initiatinig face mesh specifications
 mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh(static_image_mode=True,
